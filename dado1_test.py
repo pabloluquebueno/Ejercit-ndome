@@ -1,7 +1,6 @@
 from dado1 import Dado
 
-# Programa de prueba
-
+def programa_de_prueba():
     dado1 = Dado()
     dado2 = Dado()
     
