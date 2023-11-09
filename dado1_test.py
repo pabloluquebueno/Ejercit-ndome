@@ -4,9 +4,7 @@ from dado1 import Dado
 def programa_de_prueba():
     dado1 = Dado()
     dado2 = Dado()
-
-    print("Simulación de lanzamiento de dos dados cinco veces cada uno:")
-
+    
     for _ in range(5):
         dado1.lanzar()
         dado2.lanzar()
